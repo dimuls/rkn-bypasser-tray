@@ -1,2 +1,4 @@
 # rkn-bypasser-tray
-Attempt to make rkn-bypasser windows tray app
+
+Here is collected all required binaries. You just need to run or autorun 
+`rkn-bypasser-tray.vbs` script.

@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "rkn-bypasser-tray.exe", 0, True
