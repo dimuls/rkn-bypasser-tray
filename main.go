@@ -61,7 +61,7 @@ func onStart() {
 
 	go func() {
 		rknBypasserCmd = exec.Command("./rkn-bypasser.exe",
-			"--bind-addr", "127.0.0.1:8000")
+			"--bind-addr", "127.0.0.1:8000", "--with-additional-ips")
 		err := rknBypasserCmd.Run()
 		if err != nil {
 			logrus.WithError(err).Error("Failed to run rkn-bypasser.exe")
